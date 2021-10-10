@@ -11,11 +11,6 @@ int main(int argc, char *argv[]) {
 
 	GtkSettings *settings = gtk_settings_get_default ();
 
-	g_object_set (G_OBJECT (settings),
-	"gtk-application-prefer-dark-theme",
-	0,
-	NULL);
-
 	gtk_init(&argc, &argv);
 
 	window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
