@@ -21,3 +21,4 @@ it is 2mb larger. Choose whatever works for you.
 - I've only tested it on Windows 7 and 10 (works fine).  
 
 The header files and DLL files are licenced under the `GNU Lesser General Public License`.  
+main.c is licensed under the `MIT license`.  
