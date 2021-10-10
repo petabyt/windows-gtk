@@ -20,5 +20,4 @@ it is 2mb larger. Choose whatever works for you.
 - Note that these files are only for 64 bit Windows.  
 - I've only tested it on Windows 7 and 10 (works fine).  
 
-The header files are licenced under the `GNU Lesser General Public License`.  
-As far as I can tell, the DLL files are meant to be public domain.  
+The header files and DLL files are licenced under the `GNU Lesser General Public License`.  
