@@ -17,6 +17,9 @@ For the 2021 file, I packaged files directly from msys32 repository.
 It looks better (no pixelated fonts, better looking theme), but  
 it is 2mb larger. Choose whatever works for you.  
 
+In order to get the used DLLs, I inspected the GTK demo applications  
+and used the Windows `tasklist` utility to find what was used.  
+
 - Note that these files are only for 64 bit Windows.  
 - I've only tested it on Windows 7 and 10 (works fine).  
 
