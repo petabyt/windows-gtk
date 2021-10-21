@@ -1,6 +1,12 @@
-# win32gtk
+# windows-gtk
 Compile a GTK 3 app for Windows in 1 line, from Linux.  
 (or from Windows, it might work there too)
+
+This acts as a modern replacement for win32builder.gnome.org,  
+which went down sometime in 2018. I created it while working on  
+the [mlinstall](https://github.com/petabyt/mlinstall/) project.  
+
+# Usage
 
 1. Unzip `win64-gtk-2021.zip`.
 
