@@ -5,7 +5,11 @@ This acts as a modern replacement for win32builder.gnome.org,
 which went down sometime in 2018. I created it while working on  
 the [mlinstall](https://github.com/petabyt/mlinstall/) project.  
 
-See Makefile and test.c for a quick example.
+See Makefile and test.c for a quick example.  
+Or, use this one liner:  
+```
+x86_64-w64-mingw32-gcc main.c -Iwin32/include win32/lib/* -o test.exe
+```
 
 # Files
 
@@ -13,7 +17,6 @@ See Makefile and test.c for a quick example.
 | - | - |
 | win64-gtk-2013.zip | 2013 Binaries, pixelated font, from archived win32builder |
 | win64-gtk-2021.zip | 2021 Binaries directly from msys32 repository. Looks more modern. |
-| win64-gtk-2021.zip | Same as 2021 binaries, but only with the bare minimum. Might get errors when you try to use some functions. |
 
 # Notes
 

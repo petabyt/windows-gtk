@@ -10,7 +10,7 @@ test.exe: win32
 
 # Download remote gtk file
 win32:
-	wget -4 https://github.com/petabyt/windows-gtk/raw/master/win64-gtk-2021-min.zip
+	wget -4 https://github.com/petabyt/windows-gtk/raw/master/win64-gtk-2021.zip
 	unzip *.zip
 	rm -rf *.zip
 	
