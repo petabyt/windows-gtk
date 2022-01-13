@@ -1,5 +1,5 @@
-CC?=x86_64-w64-mingw32
-ZIP?=win64-gtk-2021.zip
+CC=i686-w64-mingw32
+ZIP?=win32-gtk-2013.zip
 
 output: test.exe
 	-rm -rf output; mkdir output
