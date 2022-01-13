@@ -17,6 +17,7 @@ x86_64-w64-mingw32-gcc main.c -Iwin32/include win32/lib/* -o test.exe
 | - | - |
 | win64-gtk-2013.zip | 2013 Binaries, pixelated font, from archived win32builder |
 | win64-gtk-2021.zip | 2021 Binaries directly from msys32 repository. Looks more modern. |
+| win32-gtk-2013.zip | 2013 Binaries, from [win32builder archive](https://web.archive.org/web/20141228094243/http://win32builder.gnome.org/gtk+-bundle_3.10.4-20131202_win32.zip). Works on ReactOS. |
 
 # Notes
 
