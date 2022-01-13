@@ -5,7 +5,7 @@ This acts as a modern replacement for win32builder.gnome.org,
 which went down sometime in 2018. I created it while working on  
 the [mlinstall](https://github.com/petabyt/mlinstall/) project.  
 
-See Makefile and test.c for a quick example.  
+See `example/` for a quick example.  
 Or, use this one liner:  
 ```
 x86_64-w64-mingw32-gcc main.c -Iwin32/include win32/lib/* -o test.exe

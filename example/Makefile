@@ -1,4 +1,5 @@
-CC=x86_64-w64-mingw32
+CC?=x86_64-w64-mingw32
+ZIP?=win64-gtk-2021.zip
 
 output: test.exe
 	-rm -rf output; mkdir output
@@ -10,7 +11,7 @@ test.exe: win32
 
 # Download remote gtk file
 win32:
-	wget -4 https://github.com/petabyt/windows-gtk/raw/master/win64-gtk-2021.zip
+	wget -4 https://github.com/petabyt/windows-gtk/raw/master/$(ZIP)
 	unzip *.zip
 	rm -rf *.zip
 	
