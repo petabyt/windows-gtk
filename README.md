@@ -6,7 +6,7 @@ which went down sometime in 2018. I created it while working on
 the [mlinstall](https://github.com/petabyt/mlinstall/) project.  
 
 See `example/` for a quick example.  
-Or, use this one liner:  
+You can compile it with this one liner:  
 ```
 x86_64-w64-mingw32-gcc main.c -Iwin32/include win32/lib/* -o test.exe
 ```
