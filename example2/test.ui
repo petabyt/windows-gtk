@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<interface>
+  <object class="GtkApplicationWindow" id="window">
+    <child>
+      <object class="GtkButton" id="btn">
+        <property name="label">Hello, World</property>
+      </object>
+    </child>
+  </object>
+</interface>
